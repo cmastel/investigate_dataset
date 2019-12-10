@@ -11798,7 +11798,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[479]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -11832,10 +11832,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[480]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gdp_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;GDPperCapita.csv&#39;</span><span class="p">)</span>
+<span class="n">gdp_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;GDP Dataframe&#39;</span>
 <span class="n">gdp_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
@@ -11849,7 +11850,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[480]:</div>
+<div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -11958,10 +11959,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[481]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">school_female_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;PrimarySchoolFemale.csv&#39;</span><span class="p">)</span>
+<span class="n">school_female_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;School (Female) Dataframe&#39;</span>
 <span class="n">school_female_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
@@ -11975,7 +11977,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[481]:</div>
+<div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -12084,10 +12086,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[482]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">school_male_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;PrimarySchoolMale.csv&#39;</span><span class="p">)</span>
+<span class="n">school_male_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;School (Male) Dataframe&#39;</span>
 <span class="n">school_male_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
@@ -12101,7 +12104,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[482]:</div>
+<div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -12219,10 +12222,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[483]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">elec_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;ElecperCapita.csv&#39;</span><span class="p">)</span>
+<span class="n">elec_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Electricity Dataframe&#39;</span>
 <span class="n">elec_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
@@ -12236,7 +12240,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[483]:</div>
+<div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -12345,10 +12349,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[484]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">water_rural_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;CleanWaterRural.csv&#39;</span><span class="p">)</span>
+<span class="n">water_rural_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Water (Rural) Dataframe&#39;</span>
 <span class="n">water_rural_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
@@ -12362,7 +12367,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[484]:</div>
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -12471,10 +12476,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[485]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">water_urban_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;CleanWaterUrban.csv&#39;</span><span class="p">)</span>
+<span class="n">water_urban_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Water (Urban) Dataframe&#39;</span>
 <span class="n">water_urban_df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
@@ -12488,7 +12494,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[485]:</div>
+<div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -12597,16 +12603,19 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[486]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check the shape of each dataframe to determine the number of rows (countries) and columns (years).</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;gdp_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">gdp_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;school_female_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">school_female_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;school_male_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">school_male_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;elec_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">elec_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;water_rural_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">water_rural_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;water_urban_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">water_urban_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">print_shape</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The shape of the </span><span class="si">{}</span><span class="s1"> is: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
+    <span class="k">return</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">gdp_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">school_female_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">school_male_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">elec_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">water_rural_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">water_urban_df</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12623,12 +12632,12 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>gdp_df.shape: (275, 53)
-school_female_df.shape: (275, 43)
-school_male_df.shape: (275, 43)
-elec_df.shape: (136, 50)
-water_rural_df.shape: (270, 21)
-water_urban_df.shape: (270, 22)
+<pre>The shape of the GDP Dataframe is: (275, 53)
+The shape of the School (Female) Dataframe is: (275, 43)
+The shape of the School (Male) Dataframe is: (275, 43)
+The shape of the Electricity Dataframe is: (136, 50)
+The shape of the Water (Rural) Dataframe is: (270, 21)
+The shape of the Water (Urban) Dataframe is: (270, 22)
 </pre>
 </div>
 </div>
@@ -12648,7 +12657,7 @@ water_urban_df.shape: (270, 22)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[487]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Confirm that there are no duplicate rows in each dataframe.</span>
@@ -12698,7 +12707,7 @@ water_urban_df duplicates: 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[488]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># As the Countries column in each dataframe has a title the explains the purpose of the content, we will change it to</span>
@@ -12727,7 +12736,7 @@ water_urban_df duplicates: 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[489]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gdp_df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -12743,7 +12752,7 @@ water_urban_df duplicates: 0
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[489]:</div>
+<div class="prompt output_prompt">Out[51]:</div>
 
 
 
@@ -12996,7 +13005,7 @@ water_urban_df duplicates: 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[490]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># From the above, the lowest 25% of countries GDP are below:</span>
@@ -13010,86 +13019,14 @@ water_urban_df duplicates: 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[491]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a new dataframe from the gdp_df that only contains the countries in the lower 25% of GDP, then display the</span>
 <span class="c1">#    shape to see how many rows (i.e countries) it contains.</span>
 <span class="n">filter_gdp_df</span> <span class="o">=</span> <span class="n">gdp_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">gdp_df</span><span class="p">[</span><span class="s1">&#39;2011&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">lower_25</span><span class="p">]</span>
-<span class="n">filter_gdp_df</span><span class="o">.</span><span class="n">shape</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[491]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(44, 53)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[492]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a list of the countries from the filter_gdp_df. This will be used to filter the other dataframes so that</span>
-<span class="c1">#    all contain the same filtered set of countries.</span>
-<span class="n">countries</span> <span class="o">=</span> <span class="n">filter_gdp_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[493]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Filter each of the other dataframes by the same list of counties. This will allow a consistent set of countries to</span>
-<span class="c1">#    compare.</span>
-<span class="n">filter_school_female_df</span> <span class="o">=</span> <span class="n">school_female_df</span><span class="p">[</span><span class="n">school_female_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
-<span class="n">filter_school_male_df</span> <span class="o">=</span> <span class="n">school_male_df</span><span class="p">[</span><span class="n">school_male_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
-<span class="n">filter_elec_df</span> <span class="o">=</span> <span class="n">elec_df</span><span class="p">[</span><span class="n">elec_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
-<span class="n">filter_water_urban_df</span> <span class="o">=</span> <span class="n">water_urban_df</span><span class="p">[</span><span class="n">water_urban_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
-<span class="n">filter_water_rural_df</span> <span class="o">=</span> <span class="n">water_rural_df</span><span class="p">[</span><span class="n">water_rural_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[494]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check the dimensions of each dataframe.</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;filter_gdp_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">filter_gdp_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;filter_school_female_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">filter_school_female_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;filter_school_male_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">filter_school_male_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;filter_elec_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">filter_elec_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;filter_water_rural_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">filter_water_rural_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;filter_water_urban_df.shape: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">filter_water_urban_df</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
+<span class="n">filter_gdp_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;GDP (filtered) Dataframe&#39;</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">filter_gdp_df</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13106,12 +13043,7 @@ water_urban_df duplicates: 0
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>filter_gdp_df.shape: (44, 53)
-filter_school_female_df.shape: (44, 43)
-filter_school_male_df.shape: (44, 43)
-filter_elec_df.shape: (22, 50)
-filter_water_rural_df.shape: (44, 21)
-filter_water_urban_df.shape: (44, 22)
+<pre>The shape of the GDP (filtered) Dataframe is: (44, 53)
 </pre>
 </div>
 </div>
@@ -13122,7 +13054,88 @@ filter_water_urban_df.shape: (44, 22)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[495]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a list of the countries from the filter_gdp_df. This will be used to filter the other dataframes so that</span>
+<span class="c1">#    all contain the same filtered set of countries.</span>
+<span class="n">countries</span> <span class="o">=</span> <span class="n">filter_gdp_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Filter each of the other dataframes by the same list of counties. This will allow a consistent set of countries to</span>
+<span class="c1">#    compare.</span>
+<span class="n">filter_school_female_df</span> <span class="o">=</span> <span class="n">school_female_df</span><span class="p">[</span><span class="n">school_female_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
+<span class="n">filter_school_female_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;School (Female Filtered) Dataframe&#39;</span>
+<span class="n">filter_school_male_df</span> <span class="o">=</span> <span class="n">school_male_df</span><span class="p">[</span><span class="n">school_male_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
+<span class="n">filter_school_male_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;School (Male Filtered) Dataframe&#39;</span>
+<span class="n">filter_elec_df</span> <span class="o">=</span> <span class="n">elec_df</span><span class="p">[</span><span class="n">elec_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
+<span class="n">filter_elec_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Electricity (Filtered) Dataframe&#39;</span>
+<span class="n">filter_water_urban_df</span> <span class="o">=</span> <span class="n">water_urban_df</span><span class="p">[</span><span class="n">water_urban_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
+<span class="n">filter_water_urban_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Water (Urban Filtered) Dateframe&#39;</span>
+<span class="n">filter_water_rural_df</span> <span class="o">=</span> <span class="n">water_rural_df</span><span class="p">[</span><span class="n">water_rural_df</span><span class="p">[</span><span class="s1">&#39;country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">countries</span><span class="p">)]</span>
+<span class="n">filter_water_rural_df</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Water (Rural Filtered) Dateframe&#39;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check the dimensions of each dataframe.</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">filter_gdp_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">filter_school_female_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">filter_school_male_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">filter_elec_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">filter_water_rural_df</span><span class="p">)</span>
+<span class="n">print_shape</span><span class="p">(</span><span class="n">filter_water_urban_df</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The shape of the GDP (filtered) Dataframe is: (44, 53)
+The shape of the School (Female Filtered) Dataframe is: (44, 43)
+The shape of the School (Male Filtered) Dataframe is: (44, 43)
+The shape of the Electricity (Filtered) Dataframe is: (22, 50)
+The shape of the Water (Rural Filtered) Dateframe is: (44, 21)
+The shape of the Water (Urban Filtered) Dateframe is: (44, 22)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Fill in any missing data by interpolation. This will keep trends consistent between countries throughout the years.</span>
@@ -13136,7 +13149,7 @@ filter_water_urban_df.shape: (44, 22)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[496]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check to see what the filter_gdp_df dataframe looks like.</span>
@@ -13153,7 +13166,7 @@ filter_water_urban_df.shape: (44, 22)
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[496]:</div>
+<div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -14270,7 +14283,7 @@ filter_water_urban_df.shape: (44, 22)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[497]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Drop Angola from the filter_gdp_df dataframe, as it is the source of remaining Null values.</span>
@@ -14284,7 +14297,7 @@ filter_water_urban_df.shape: (44, 22)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[498]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Confirm there are no more Null values in filter_gdp_df.</span>
@@ -14301,7 +14314,7 @@ filter_water_urban_df.shape: (44, 22)
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[498]:</div>
+<div class="prompt output_prompt">Out[21]:</div>
 
 
 
@@ -14345,7 +14358,7 @@ filter_water_urban_df.shape: (44, 22)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[499]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
@@ -14365,13 +14378,13 @@ filter_water_urban_df.shape: (44, 22)
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[499]:</div>
+<div class="prompt output_prompt">Out[22]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1b5e2b0d320&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x2506016cf28&gt;</pre>
 </div>
 
 </div>
@@ -14663,7 +14676,7 @@ RK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[500]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">largest_inc</span> <span class="o">=</span> <span class="mi">0</span>
@@ -14710,7 +14723,7 @@ RK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[501]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create lists of GDP and School Attendance (Male and Female) in order to prepare a plot.</span>
@@ -14738,7 +14751,7 @@ RK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[502]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -16600,10 +16613,13 @@ AABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[503]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_school_female</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">),</span> <span class="n">mean_school_male</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;g&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Primary School Completion Rates: Male vs Female&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Primary School Completion (%)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Number of Years&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -16616,14 +16632,13 @@ AABJRU5ErkJggg==
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[503]:</div>
+<div class="prompt output_prompt">Out[32]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(&lt;matplotlib.axes._subplots.AxesSubplot at 0x1b5e2c7e9b0&gt;,
- &lt;matplotlib.axes._subplots.AxesSubplot at 0x1b5e2c7e9b0&gt;)</pre>
+<pre>Text(0,0.5,&#39;Number of Years&#39;)</pre>
 </div>
 
 </div>
@@ -16636,76 +16651,173 @@ AABJRU5ErkJggg==
 
 
 <div class="output_png output_subarea ">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXQAAAD8CAYAAABn919SAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYIAAAEWCAYAAABrDZDcAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAADl0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uIDIuMS4wLCBo
-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
-/wUcAl2Hj2JNRAAAAABJRU5ErkJggg==
+dHRwOi8vbWF0cGxvdGxpYi5vcmcvpW3flQAAIABJREFUeJzt3XucXfO9//HXOwlxSVANOWFU3HvR
+ViWUohKXtlTdjhbVG9q0pxdUc061Pz2oql5C6e04DupS5CjqqFZLMWiVyqCNiEsRxCWhpBElLfn8
+/vh+R1a2vWf2zOzLzKz38/HYj9l73b6f71pr1mev71r7uxQRmJlZeY1odwBmZtZeTgRmZiXnRGBm
+VnJOBGZmJedEYGZWck4EZmYl50RQg6SrJX283XE0iqSJkkLSqCYsOyRt2ujlNpqkTkmf7Oe8O0m6
+r9ExlY2kKZLmtzuOdpM0T9Ju7Y6jW2kSQV7xL0paImmBpJ9IGlNr+ojYIyLOa2WM9ZJ0uKR7JT2f
+6/JLSWPbHVctkt4r6aYc79OSbpS0d7vj6kllcouImyNiiyaU052gl+TXPEnH9GH+T0j6XaPjqlFW
+5P1tVGHYKEkLJQ2JHyTlRLSssL6XSPpFu+Nqt9IkguwDETEG2BrYBji2cgIlLVsvff2GLmln4JvA
+wRExFngTcEkzYmsESQcAPwPOBzqA8cB/Ah9oZ1yD0Fp53zwA+Jqk3dsdUA2LgD0Kn/cEnmtTLP31
+RESMKbxKvy+WLREAEBGPA1cDW8KrTQYnSfo98Hdg42IzQv7W9XtJ35O0SNJDkt6Vhz+WvxG92owk
+6f2S7pS0OI8/vjCu+xvg4ZIeBa7P3+i/UIxR0p8l7Vsl/G2AP0TEnbkuz0bEeRHxfJ5vVUmnSHpE
+0t8k/U7SqoX5D5H0qKRnJP2/QnmjJZ0m6Yn8Ok3S6ML4T0n6i6RnJV0pab3e1rMkAacCJ0bEWRHx
+t4hYFhE3RsSn8jQjJB2b410o6XxJa1asq0PzenxO0mckbZPXzyJJPyyU172dfpDrfq+kXXuI7zBJ
+c/NyfyNpwzz8pjzJn/I3xgNV0aQh6U15H1kkaU7xDEfSuZJ+lLfr85Juk7RJb+sLICJmAXOArQrL
+O0bSg3lZ90jarzsG4Axg+xznojx8tKQZeTsvkHRG9z4gaZykq3Lcz0q6uY9ffC4APlb4/DFSkn9V
+3l5zc7wPSfp0rYVJWk/SZUpnig9LOqLGdNtJekrSyMKw/ST9Ob/fVtKs/D+3QNKpfahT9/JGFNb1
+XyVdImntPK6v++Imkq7Py3lG0oWS1upruS0TEaV4AfOA3fL7DUj/bCfmz53Ao8BbgFHASnnYJ/P4
+TwAvA4cCI4Fv5Ol/BIwG3gM8D4zJ008B3kpKtG8DFgD75nETgSD986wOrAp8CLitEOvbgb8CK1ep
+x07Ai8AJwA7A6IrxP8qxr59jfVeOsbvc/8llvh1YCrwpz/d14FZgXWAd4JbC+tkFeIZ0JjUa+AFw
+U6HMADatEusb87iNetguhwF/ATYGxgCXAxdUrKszgFXyen4JuCLHuT6wENi5Yjt9MW/DA4G/AWsX
+tnP3Nt03l/umvM2PBW6pVae8Tefn9yvleb8KrJzXz/PAFnn8ucCzwLZ52RcCM2vUv7uOo/Ln7Uhf
+RvYrTPNBYD3S/nQg8AIwoVDn31Us8zTgSmBtYCzwC+DkPO7kvD5Xyq+dAOVxPwZ+3MO2CtKXpwXA
+Wvm1IA+LwnTvBzYBBOyc67N1lfU4AuginSGunPeBh4D31ij/QWD3wuefAcfk938APprfjwG2q7GM
+V8uvMu4o0v9AB2k//2/g4n7ui5sCu+flrAPcBJxW43hUs9yWHR9bWVg7X3nFLyGd2j6Sd/pV87hO
+4OsV03eyYiJ4oDDurXmnGF8Y9ldgqxplnwZ8r2KH2rgwfjTpwLFZ/jyjl3/IPUj/3ItynU4lHfRH
+kJLE26vM011uR2HYH4GD8vsHgT0L494LzMvvzwa+Uxg3BvgnMDF/rpUIdsjjVumhLtcBny183iIv
+e1Qh5vUr1vOBhc+XAUcVttMT5ANboY7dB4jiNr0aOLww3QjSAWvDanVixQPYTsBTwIjC+IuB4/P7
+c4GzCuP2BO6tUf/uOi7K2y7y9le16fM8dwH7FOr8u8I4kRLFJoVh2wMP5/dfB/6v2vaq438oSAe4
+s4BPA58hfbHYlEIiqDLfFcCRVdbjO4FHK6b9CvCTGsv5BnBOfj8217N7e91E+nI0rpc6TAGW5fXd
+/fpQHjcX2LUw7YT+7otVyt0XuLPweR7LE0HNcvu6jfr7KlvT0L4RsVZEbBgRn42IFwvjHutl3gWF
+9y8CRETlsDEAkt4p6YZ8uvs30j/MuIrlvVpeRCwltfN/JJ+mH0w6Ba8qIq6O1K65NrAP6WDwyVzG
+KqSDei1PFd7/vTtm0jfORwrjHsnDXjMuIpaQ/gnW76Ec8jSQduxaqpU7inQtoVvleq663rPHI/83
+FZZXrRlrQ+D0fEq/iJSIRe916o75sYhYVlFOcd5a67mWcXma6aSD1UrdIyR9TNJdhVi35LX7U7d1
+gNWArsL0v87DAb5LOpu5Jjfb1H1huuB8UpPQa5qFcrx7SLo1Nz0tIiXCavFuCKzXHWee9qusuO2L
+LgL2V2qy3B+4IyK6953Dgc2BeyXdLmmvHuJ/Ih8Hul/d19g2BH5eiGUu8Ar92BclrStppqTHJS0G
+flpjHdRbblOVLRH0JHqfpG4XkU7NN4iINUmnk+qlvPOAQ4Bdgb9HxB96KyRSe/t1wPWkg8MzpNPV
+utqjKzxB2iG7vSEPe804SasDrwce72WZ95ES3r/2sdyXWfEfrC/Wl1Rc18V6FD0GfLrigLBqRNxS
+RxlPABtUtK2/gd7XR48i4pWIOIW0DT8LkK9b/A/weeD1EbEWcDfL96fK/egZ0gHpLYV6rRnpQjQR
+8XxEfCkiNiZdsD9aPVxHqeFmUnIfD6xwx1I+SF9GOqsZn+P9Fa/d/yFtg4crtsHYiNizWqERcQ8p
+4e4BfJj0f9Y97oGIOJjUTPNt4NK8n/bFY8AeFfGsEumaYl+dTNo2b4uINYCPUH0dNLrcfnEiaI6x
+wLMR8ZKkbUk7bY/ygX8ZcAo9nA1I2kfSQZJep2RbUjvsrfkb6jnAqfki3EhJ26tw0bcHFwPHSlpH
+0jhSu+1P87iLgEMlbZWX9U3SNY15vdQpgKNJd8EcKmmNfGFsR0lnFsr9oqSNlG7n/SbwvxHxch0x
+V7MucISklSR9kHQN4FdVpjsD+IqktwBIWjNP320Bqc26mttIzRL/kcuZQjqozuxnzJW+lZe9Cuk6
+UgBP5zgPJd/kUIizQ9LKkL4ckBLH9yStm+dZX9J78/u9JG2ak+Vi0jfPV/oSXN6uHwD2rjj7gtTW
+PzrH+7KkPUjt6dX8EVgs6ctKNzmMlLSlpG16KP4i4Ajg3aRrBOR6fUTSOrn+i/LgPtWLtE+cpOU3
+DawjaZ8+LqPbWHJTtKT1gX9vUbn94kTQHJ8Fvi7pedIBtd7bO88nXX/4aQ/TPAd8CniA9I/8U+C7
+EXFhHj8dmA3cTmru+Db1bedvALOAP+f578jDyGcdXyN903uSdMZxUD0ViohLSRc4DyN9k16Ql/t/
+eZJzSInvJuBh0rfhL7x2SXW7DdiM9M34JOCAiPhr5UQR8XPSupmZT93vZsXbIo8Hzsun6x+qmPcf
+wN55+mdI15s+FhH3DiDuol+St3P+FnwK6WLoAtL+8fvCtNeTbnx4StIzediXSc0/t+a6/ZZ07QXS
+uvkt6SD1B9K1qE4ApbuLzqgnwIiYExFzqgx/nnSgviTX4cOks+Nqy3iFlFC2Im37Z0jXH9bsoeiL
+SU1n10fEM4Xh7wPmSFoCnE669vVSPXUpOD3Hek3+372VdB2jP04g3VzxN9L2vLxF5faLXpvQrV0k
+fQyYFhE7tjuWoUjSJ0gXg73+zPrAZwSDhKTVSGcSZ/Y2rZlZIzkRDAK5/fZp0qn/Rb1MbmbWUG4a
+MjMrOZ8RmJmVXMO7JG6GcePGxcSJE1tW3gsvvMDqq/f1FuShw/UbuoZz3cD1a7Surq5nImKd3qYb
+Eolg4sSJzJo1q2XldXZ2MmXKlJaV12qu39A1nOsGrl+jSXqk96ncNGRmVnpOBGZmJedEYGZWck4E
+ZmYl50RgZlZyTgRmZiXXtEQg6RylZ9DeXRi2tqRrJT2Q/76uWeWbmVl9mnlGcC6pa9iiY4DrImIz
+0iMK+/N0JDMza6CmJYKIuInUH37RPqQncZH/7tus8s3MrD5N7XRO0kTgqojYMn9elB9d1z3+uYio
+2jwkaRowDWD8+PGTZs5s1MOferdkyRLGjOntEbMr6upqUjAVJk0a+DL6U7+hZDjXbzjXDVy/Rps6
+dWpXREzudcL+PvW+nhcwEbi78HlRxfjn6lnOpEmTopVuuOGGPs8DrXm1q35DyXCu33CuW4Tr12jA
+rKjjGNvqu4YWSJoAkP8ubHH5ZmZWodWJ4Erg4/n9x1n+3FozM2uTZt4+ejHp4dhbSJov6XDgW8Du
+kh4Ads+fzcysjZrWDXVEHFxj1K7NKtPMzPrOvyw2Mys5JwIzs5JzIjAzKzknAjOzknMiMDMrOScC
+M7OScyIwMys5JwIzs5JzIjAzKzknAjOzknMiMDMrOScCM7OScyIwMys5JwIzs5JrWjfUZgOlE9Sv
++WZsPoOpJ0ytOi6Oa94zus2GKp8RmJmVnBOBmVnJORGYmZWcE4GZWck5EZiZlZwTgZlZyTkRmJmV
+nBOBmVnJORGYmZWcE4GZWck5EZiZlZwTgZlZyTkRmJmVnBOBmVnJORGYmZWcE4GZWck5EZiZlVxb
+EoGkL0qaI+luSRdLWqUdcZiZWRsSgaT1gSOAyRGxJTASOKjVcZiZWdKupqFRwKqSRgGrAU+0KQ4z
+s9JTROsf5i3pSOAk4EXgmog4pMo004BpAOPHj580c+bMlsW3ZMkSxowZ06d5urqaFEyFSZMGvox6
+69fuOnU92b8AOkZ3MH/p/OplTWjACmyj/uybQ4nr11hTp07tiojJvU3X8kQg6XXAZcCBwCLgZ8Cl
+EfHTWvNMnjw5Zs2a1aIIobOzkylTpvRpHqk5sVRqxOaqt37trpNO6F8AMzafwfT7p1cv67jWf/Fp
+pP7sm0OJ69dYkupKBO1oGtoNeDgino6IfwKXA+9qQxxmZkZ7EsGjwHaSVpMkYFdgbhviMDMz2pAI
+IuI24FLgDmB2juHMVsdhZmbJqHYUGhHHAce1o2wzM1uRf1lsZlZyTgRmZiXnRGBmVnJOBGZmJedE
+YGZWck4EZmYl50RgZlZyTgRmZiXnRGBmVnJOBGZmJedEYGZWck4EZmYl12sikHSypDUkjZL0G0kL
+JH24FcGZmVnz1XNGsEdELAb2AhYCbwG+3NSozMysZepJBCvlv3sCF0fEM8DQft6fmZm9qp5E8EtJ
+dwPvBK6VNA5Y2tywrBZp4K+urvqmM7Ny6DERSBpBetD8LsCk/Izhl4D9WxCbmZm1QI+JICKWAadH
+xMKIeDkPWxIRj7ckOjMza7p6moaulbRP0yMxM7O2qOeZxZ8H1pS0FHgREBARsXZTIzMzs5aoJxGM
+a3oUZmbWNr0mgoh4RdKawCbAKoVRtzQtKjMza5leE4Gkw4GjgfWB2cA2wK3AlKZGZmZmLVHPxeKj
+gMnAvIjYCZgEPNnUqMzMrGXqSQQvRcSLAJJWjog5wBubG5aZmbVKPReLn5S0FvAL4DeSngUWNDcs
+MzNrlXouFu+d335N0q7AmsAvmxqVmZm1TD1nBEjaDtg8Is6X9HpgPPBoUyMzM7OWqOeuoWOBHUi3
+j55PuoX0ImDH5oZmZmatUM/F4gNIXVC/AJD7GVqjmUGZmVnr1JMIlkZEkJ9BIGm15oZkZmatVE8i
+uFzSj0j9DR0KXAOc09ywzMysVeq5a+jbkvYA/gG8HTgpIq4eSKH5dtSzgC1JZxqHRcQfBrJMMzPr
+n5qJQNKPgWMiYnE+8A/o4F/hdODXEXGApJUBNzeZmbVJT01D84AuSR9uZIGS1gDeDZwNEBH/iIhF
+jSzDzMzqVzMRRMR3SB3L7SPpOkkHSNq/+zWAMjcGngZ+IulOSWdJWn0AyzMzswFQuiGohwmkjwEn
+AdcDy/LgiIjD+lWgNJnUe+kOEXGbpNOBxRHxtYrppgHTAMaPHz9p5syZ/SmuX5YsWcKYMWP6NE9X
+V5OCaYKOjiXMn9+3+vVovcFV+Y7RHcxfOr/quEkTJjWlzK4nG78OqsXan31zKHH9Gmvq1KldETG5
+t+lqJgJJbwH+C3gC+GJENKTHUUn/AtwaERPz551I1yLeX2ueyZMnx6xZsxpRfF06OzuZMmVKn+aR
+mhNLM8yY0cn06VMat8DjB1flZ2w+g+n3T686Lo7r+YtPf+mExq+DarH2Z98cSly/xpJUVyLo6a6h
+S4EjI+KaxoUFEfGUpMckbRER9wG7Avc0sgwzM6tfT4lgq4hY2qRyvwBcmO8Yegg4tEnlmJlZL2om
+giYmASLiLtLDbszMrM3q+WWxmZkNYzUTgaTr8t9vty4cMzNrtZ6uEUyQtDOwt6SZwAq3RUTEHU2N
+zMzMWqKnRPCfwDFAB3BqxbgAdmlWUGZm1jo9XSy+FLhU0tci4sQWxmRmZi1UT++jJ0ram9Q/EEBn
+RFzV3LDMzKxVer1rSNLJwJGkH33dAxyZh5mZ2TBQz8Pr30/6cdkyAEnnAXcCX2lmYGZm1hr1/o5g
+rcL7NZsRiJmZtUc9ZwQnA3dKuoF0C+m78dmAmdmwUc/F4osldQLbkBLBlyPiqWYHZmZmrVHPGQG5
+C+ormxyLmZm1gfsaMjMrOScCM7OS6zERSBoh6e5WBWNmZq3X4zWCiFgm6U+S3hARj7YqKLNmacYj
+Jc2GunouFk8A5kj6I/BC98CI2LtpUZmZWcvUkwhOaHoUZmbWNvX8juBGSRsCm0XEbyWtBoxsfmhm
+ZtYK9XQ69yngUuC/86D1gSuaGZSZmbVOPbePfg7YAVgMEBEPAOs2MygzM2udehLB0oj4R/cHSaNI
+TygzM7NhoJ5EcKOkrwKrStod+Bnwi+aGZWZmrVJPIjgGeBqYDXwa+BVwbDODMjOz1qnnrqFl+WE0
+t5GahO6LCDcNmZkNE70mAknvB84AHiR1Q72RpE9HxNXNDs7MzJqvnh+UnQJMjYi/AEjaBPgl4ERg
+ZjYM1HONYGF3EsgeAhY2KR4zM2uxmmcEkvbPb+dI+hVwCekawQeB21sQm5mZtUBPTUMfKLxfAOyc
+3z8NvK5pEZmZWUvVTAQRcWgrAzEzs/ao566hjYAvABOL07sbajOz4aGeu4auAM4m/Zp4WXPDMTOz
+VqsnEbwUEd9vdMGSRgKzgMcjYq9GL9/MzOpTTyI4XdJxwDXA0u6BEXHHAMs+EpgLrDHA5ZiZ2QDU
+kwjeCnwU2IXlTUORP/eLpA7g/cBJwNH9XY6ZmQ2ceus2SNK9wNuKXVEPuFDpUuBkYCwwvVrTkKRp
+wDSA8ePHT5o5c2ajiu/VkiVLGDNmTJ/m6epqUjBN0NGxhPnz+1a/Hq03uCrfMbqD+UvntzuMpmhE
+3SZNmNSgaBpvwYIG75vVNGl/rWe99ufYMhBTp07tiojJvU1XzxnBn4C1aNCviSXtRfq1cpekKbWm
+i4gzgTMBJk+eHFOm1Jy04To7O+lreVOnNieWZpgxo5Pp06c0boHHD67Kz9h8BtPvn97uMJqiEXWL
+gwdvn5GnnNLgfbOaJu2v9azX/hxbWqGeRDAeuFfS7ax4jaC/t4/uAOwtaU9gFWANST+NiI/0c3lm
+ZjYA9SSC4xpZYER8BfgKQD4jmO4kYGbWPvU8j+DGVgRiZmbtUc8vi59n+TOKVwZWAl6IiAHf9hkR
+nUDnQJdjZmb9V88ZwdjiZ0n7Ats2LSIzM2upep5HsIKIuIIB/IbAzMwGl3qahvYvfBwBTGZ5U5GZ
+mQ1x9dw1VHwuwcvAPGCfpkRjZmYtV881Aj+XwMxsGOvpUZX/2cN8EREnNiEeMzNrsZ7OCF6oMmx1
+4HDg9YATgZnZMNDToypP6X4vaSyp2+hDgZnAKbXmMzOzoaXHawSS1iZ1E30IcB6wdUQ814rAzMys
+NXq6RvBdYH9SD6BvjYglLYvKzMxapqcflH0JWA84FnhC0uL8el7S4taEZ2ZmzdbTNYI+/+rYzMyG
+Hh/szcxKzonAzKzknAjMzEqunr6GzKzkpNaUM2NGa8ppBp3Q+0qasfkMpp5Q/zOT47jW9O/pMwIz
+s5JzIjAzKzknAjOzknMiMDMrOScCM7OScyIwMys5JwIzs5JzIjAzKzknAjOzknMiMDMrOScCM7OS
+cyIwMys5JwIzs5JzIjAzKzknAjOzknMiMDMruZYnAkkbSLpB0lxJcyQd2eoYzMxsuXY8oexl4EsR
+cYeksUCXpGsj4p42xGJmVnotPyOIiCcj4o78/nlgLrB+q+MwM7NEEa15JmbVwqWJwE3AlhGxuGLc
+NGAawPjx4yfNnDmzX2V0dfV9no6OJcyfP6Zf5Q0FDa/fev1YyU3UMbqD+UvntzuMphjOdYMq9Xti
+UuMLaeP+2tftN2nCwOo/derUroiY3Nt0bUsEksYANwInRcTlPU07efLkmDVrVj/L6fs8M2Z0Mn36
+lH6VNxQ0vH7Ht+jJ5nWasfkMpt8/vd1hNMVwrhtUqd/xTTg+tXF/7ev2G+jD6yXVlQjacteQpJWA
+y4ALe0sCZmbWXO24a0jA2cDciDi11eWbmdmK2nFGsAPwUWAXSXfl155tiMPMzGjD7aMR8TtgcDUq
+m5mVmH9ZbGZWck4EZmYl50RgZlZyTgRmZiXnRGBmVnJOBGZmJedEYGZWck4EZmYl50RgZlZyTgRm
+ZiXnRGBmVnJOBGZmJedEYGZWck4EZmYl50RgZlZyLX8egZlZ3QbZ87CHK58RmJmVnBOBmVnJORGY
+mZWcE4GZWck5EZiZlZwTgZlZyTkRmJmVnBOBmVnJORGYmZWcE4GZWck5EZiZlZwTgZlZyTkRmJmV
+nBOBmVnJORGYmZWcE4GZWck5EZiZlVxbEoGk90m6T9JfJB3TjhjMzCxpeSKQNBL4EbAH8GbgYElv
+bnUcZmaWtOOMYFvgLxHxUET8A5gJ7NOGOMzMDFBEtLZA6QDgfRHxyfz5o8A7I+LzFdNNA6blj1sA
+97UwzHHAMy0sr9Vcv6FrONcNXL9G2zAi1ultolGtiKSCqgx7TTaKiDOBM5sfzmtJmhURk9tRdiu4
+fkPXcK4buH7t0o6mofnABoXPHcATbYjDzMxoTyK4HdhM0kaSVgYOAq5sQxxmZkYbmoYi4mVJnwd+
+A4wEzomIOa2OoxdtaZJqIddv6BrOdQPXry1afrHYzMwGF/+y2Mys5JwIzMxKrtSJQNIGkm6QNFfS
+HElH5uFrS7pW0gP57+vaHWt/SFpF0h8l/SnX74Q8fCNJt+X6/W++aD9kSRop6U5JV+XPw6Z+kuZJ
+mi3pLkmz8rBhsX8CSFpL0qWS7s3/h9sPl/pJ2iJvt+7XYklHDcb6lToRAC8DX4qINwHbAZ/L3V0c
+A1wXEZsB1+XPQ9FSYJeIeDuwFfA+SdsB3wa+l+v3HHB4G2NshCOBuYXPw61+UyNiq8L958Nl/wQ4
+Hfh1RLwReDtpOw6L+kXEfXm7bQVMAv4O/JzBWL+I8Cu/gP8Ddif9inlCHjYBuK/dsTWgbqsBdwDv
+JP2ycVQevj3wm3bHN4B6dZD+mXYBriL9YHE41W8eMK5i2LDYP4E1gIfJN60Mt/pV1Ok9wO8Ha/3K
+fkbwKkkTgXcAtwHjI+JJgPx33fZFNjC52eQuYCFwLfAgsCgiXs6TzAfWb1d8DXAa8B/Asvz59Qyv
++gVwjaSu3O0KDJ/9c2PgaeAnuWnvLEmrM3zqV3QQcHF+P+jq50QASBoDXAYcFRGL2x1PI0XEK5FO
+TTtIHf69qdpkrY2qMSTtBSyMiK7i4CqTDsn6ZTtExNak3no/J+nd7Q6ogUYBWwP/FRHvAF5gMDST
+NFi+RrU38LN2x1JL6ROBpJVISeDCiLg8D14gaUIeP4H0bXpIi4hFQCfpWshakrp/TDiUu/jYAdhb
+0jxSL7a7kM4Qhkv9iIgn8t+FpPblbRk+++d8YH5E3JY/X0pKDMOlft32AO6IiAX586CrX6kTgSQB
+ZwNzI+LUwqgrgY/n9x8nXTsYciStI2mt/H5VYDfSxbgbgAPyZEO2fhHxlYjoiIiJpFPv6yPiEIZJ
+/SStLmls93tSO/PdDJP9MyKeAh6TtEUetCtwD8OkfgUHs7xZCAZh/Ur9y2JJOwI3A7NZ3sb8VdJ1
+gkuANwCPAh+MiGfbEuQASHobcB6pK48RwCUR8XVJG5O+Qa8N3Al8JCKWti/SgZM0BZgeEXsNl/rl
+evw8fxwFXBQRJ0l6PcNg/wSQtBVwFrAy8BBwKHlfZXjUbzXgMWDjiPhbHjbotl+pE4GZmZW8acjM
+zJwIzMxKz4nAzKzknAjMzErOicDMrOScCGwFkl7JPSXeLeln+fa3atP9qvs3Cq0maYSk7+cYZ0u6
+XdJGPUx/vKTpDSp7SY3h/yJppqQHJd2T18/mjSizRnlTuntb7WGarSTtWfi8t6SG/HJX0qqSbsxd
+mGyRu8D4k6Tt8/hRkn5b3H/y+tmsEeVbYzkRWKUXI/WYuCXwD+AzxZFKRkTEnvnXyg1T+DVwbw4E
+1gPeFhFvBfYDGhpLX+QfJv4c6IyITSLizaTfo4xvV0zZVsCriSAiroyIbzVo2YcBl0fEK8CnSV1D
+HAB0J9x/Ay6IiL8X5vkvUr9QNsg4EVhPbgY2lTQx9xX/Y1IPphvkfvLH5XH35g7D7pZ0oaTdJP0+
+97e+LYCkbSXdkjsXu6X716SSPpHPPH5B6lztAkn7dAeQl7d3RVwTgCcjYhlARMyPiOfy9O+TdEf+
+dnpdYZ43S+qU9JCkIwrLPzrHfbeko3obXsNU4J8RcUb3gIi4KyJuzonzu4WzlwPz8qfkb9SXSLpf
+0rckHaL0/IjZkjbJ050r6QxJN+fp9qosPP8C+Zx8ZnSnpH2U+rf5OnBgPsM7MK/rH+Z5NpR0naQ/
+579vKJT3/byNHpJ0QGV52SEtNl/6AAAEWElEQVQs/0XsP4FVST3c/jOfKX4AOL9inpuB3fqQ8K1V
+2t39qV+D6wUsyX9Hkf7R/w2YSPrl9XaF6eYB4/K4l4G3kr5YdAHnkDp/2we4Ik+/Bsu7ht4NuCy/
+/wSpz5m18+edC/OsSeqmeFRFjB25/LuAU4B35OHrkH7FuVH+3L3M44FbgNE55r8CK5H6iJ8NrA6M
+AeaQeqCtOry4firiOYL0/INq6/NfSb2+jiSdITxKSmRTSGcxE3JcjwMn5HmOBE7L788Ffp3X7WZ5
+Xa2S578qT/NN0q+nAdYC7s+xfwL4YSGWVz8DvwA+nt8fVljn55I6RxsBvBn4S5U6rQw8Vfj8BlI/
+Vn8A3gacCuxcY31cC0xq937u14ovZ2artKpSt9WQvsGdTWqGeSQibq0xz8MRMRtA0hzSQzdC0mxS
+ooB0UD8vtxEH6UDc7drIP7GPiBsl/UjSusD+pITxcmFaImJ+PqPYJb+uk/RB0jfSmyLi4Txd8Wf7
+v4zUzcRSSQtJB+UdgZ9HxAs59suBnUhJrNrwO+tZgRV2BC6O1ISyQNKNwDbAYuD2yN0RS3oQuCbP
+M5t0ltHtkkhnPw9Iegh4Y0UZ7yF1vtfdLLMK6eDck+1J6xfgAuA7hXFX5PLukVSteWschaa4iHiU
+lJiQtClpf7lX0gWkpPG1iLg/T74wjy/2GGtt5kRglV6M1G31q1ITOC/0ME+xH59lhc/LWL6PnQjc
+EBH7KT37obMwT+WyLyA1PRxE+rb6GvmgfjVwtaQFwL6kb5u1+kwpxvhKjqtal9X0MLyWOSzv5K4v
+y6pnvcFr61T5WcC/RsR9KwyU3tlD2ZWKyyzGVS3+F0nJppqTgGNJZ0kXks7cjiNtT/J8L/YhLmsB
+XyOwVlmT1PwBqYmiJ+cCRwFExJzKkZK2lrRefj+C1BzxCKlpYmflO4gkrd1LOTcB+0paTal3z/1I
+Z0G1htdyPTBa0qcKMW4jaee8rAOV7q5ZB3g38Mde4qr0QaU7pTYhPczlvorxvwG+kC9aI+kdefjz
+wNgay7yFlGghHaR/V28wka7HjJS0QjLI9X08Ih4gnZ0tIyXd4p1nm5MSpw0iPiOwVvkOqWnoaNKB
+s6aIWCBpLnBFjUnWBf5H0uj8+Y+ktu+XlJ7idXlOEAtJjx6tVc4dks5l+YH5rIi4E9JF02rDaywn
+JO0HnKZ0e+ZLpG/CR5ESwfbAn0jfuv8jIp6SVNm805P7gBtJzVmfyfUsjj+R9ByGP+dkMA/Yi9Qd
+9zG5qe/kimUeAZwj6d9JTwk7tA/xQGrG2hH4Lbx659SxwIfy+DNJZwSjSNeZyM1ML3Y3h9ng4d5H
+bdBRuvd8NrB15K57yyonpKsi4tJ2x1KUzzqOjoiP9mGeLwKLI+Ls5kVm/eGmIRtUJO0G3Av8oOxJ
+YDDLZ0g3SBrZh9kWkZ6PYYOMzwjMzErOZwRmZiXnRGBmVnJOBGZmJedEYGZWck4EZmYl9/8BSyKx
+J5MKA7oAAAAASUVORK5CYII=
 "
 >
 </div>
@@ -16720,13 +16832,22 @@ P6M9EbgHeG9mPju6SruLiDlgITMvqtJf08cXm8k9wOcy82MR8WoKHJ8AEXE2cD1wNPAd4H00xyo1
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>The above histogram clearly shows that the mean primary school completion rate is generally about 20% higher for males compared to females in the select countries. This is a glaring discrepency that should be addressed in an effort to improve overall quality of life in these countries.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="What-is-the-relation-between-GDP-and-Electricity-Consumption?">What is the relation between GDP and Electricity Consumption?<a class="anchor-link" href="#What-is-the-relation-between-GDP-and-Electricity-Consumption?">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[504]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a list of mean Electricity consumption rates over the Least Developed Countries.</span>
@@ -16741,7 +16862,7 @@ P6M9EbgHeG9mPju6SruLiDlgITMvqtJf08cXm8k9wOcy82MR8WoKHJ8AEXE2cD1wNPAd4H00xyo1
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[505]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a histogram of Electricity Consumption to get a basic representation of distribution.</span>
@@ -16761,7 +16882,7 @@ P6M9EbgHeG9mPju6SruLiDlgITMvqtJf08cXm8k9wOcy82MR8WoKHJ8AEXE2cD1wNPAd4H00xyo1
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[505]:</div>
+<div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -16970,7 +17091,7 @@ QmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[511]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">mean_gdp</span><span class="p">[</span><span class="s1">&#39;1979&#39;</span><span class="p">:</span><span class="s1">&#39;2008&#39;</span><span class="p">],</span> <span class="n">mean_elec</span><span class="p">)</span>
@@ -17254,7 +17375,7 @@ RDza7c4DnKRjI+LYsuWFSInfpmUV5NYCLmIya4+jmLdc3iq7ucvycOAoJw6t5xyEmZlV5ByEmZlV
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[507]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_water_urban</span> <span class="o">=</span> <span class="n">filter_water_urban_df</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span> <span class="c1"># Create list of mean Urban Water Usage by year</span>
@@ -17272,7 +17393,7 @@ RDza7c4DnKRjI+LYsuWFSInfpmUV5NYCLmIya4+jmLdc3iq7ucvycOAoJw6t5xyEmZlV5ByEmZlV
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[508]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
